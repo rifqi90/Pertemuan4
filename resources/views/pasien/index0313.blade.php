@@ -4,7 +4,7 @@
 
 <a href="{{ route('dokter.create') }}">Dokter</a>
 
-<table style="border: solid 1px; width: 50%; font-size: 2em">
+<table style="margin-left:auto;margin-right:auto">
     <thead style="text-align: left">
         <th>ID</th>
         <th>Nama</th>

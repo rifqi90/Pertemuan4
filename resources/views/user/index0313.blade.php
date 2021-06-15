@@ -2,21 +2,22 @@
 
 @section('content')
 
-<a href="{{ route('dokter.create') }}">Dokter</a>
+<a href="{{ route('user.create') }}">User</a>
 
-<table style="border: solid 1px; width: 50%; font-size: 2em">
+<table style="margin-left:auto;margin-right:auto">
     <thead style="text-align: left">
         <th>ID</th>
         <th>Nama</th>
-        <th>Jabatan</th>
+        <th>Username</th>
+        <th>Password</th>
     </thead>    
     <tbody>
     <tr>
         <td>1</td>
-        <td>Zam</td>
-        <td>Dokter Umum</td>
+        <td>Admin</td>
+        <td>admin</td>
+        <td>admin</td>
     </tr> 
-
     </tbody>
 </table>
 
